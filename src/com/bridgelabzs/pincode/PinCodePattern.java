@@ -12,7 +12,7 @@ public class PinCodePattern {
 		System.out.println("Enter the pin code:");
 		String content = sc.nextLine();
 
-		String pattern = "^([0-9]{6})";
+		String pattern = "^([0-9]{6})$";
 		
 		boolean isMatch = Pattern.matches(pattern, content);
 		
